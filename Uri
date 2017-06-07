@@ -1,0 +1,5 @@
+filename = "Uri.txt"
+file = open(filename, "r")
+for line in file:
+	if "uri" in line:
+   		print(line)
